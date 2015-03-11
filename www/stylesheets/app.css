@@ -1,0 +1,1309 @@
+/**
+Couleur logo : #1b6b74
+*/
+@font-face
+{
+    font-family: "spibook";
+    src: url("../fonts/fontastique.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {    
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../fonts/Comfortaa-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5{
+     font-family: 'comfortaa',tahoma, verdana;
+}
+
+/** POUR IE */
+a img{
+    border:none;
+}
+
+
+
+
+body{
+    font-family: verdana,tahoma, arial, sans-serif;
+    background: #f5f5f5;
+}
+
+a{
+    color:#1b6b74;
+    border: none;
+}
+
+.containerSpk{
+    background:#393c42;
+    margin-bottom:2em;
+}
+/**
+MAIN MENU
+*/
+
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+  .touch .nav-bar li.has-flyout > a.flyout-toggle {
+    position: relative;
+    margin-top:-40px;
+  }
+}
+
+
+.nav-bar {
+    position: relative;     
+    border:none;
+    background: none;  
+    margin-bottom: 0;
+}
+
+.nav-bar > li.has-mega-flyout { position: static; }
+.mega.flyout { position: absolute; left: 0; right: 0; width: 100%; }
+
+
+#menu_1stlevelOrganisateur{background: url(../images/spibook/icones/organisateur-small.png) left center no-repeat;}
+#menu_1stlevelEvenement{background: url(../images/spibook/icones/calendar-small.png) left center no-repeat;}
+#menu_1stlevelThematiques{background:  url(../images/spibook/icones/thematique-small.png) left center no-repeat;}
+#menu_1stlevelCategories{background: url(../images/spibook/icones/category-small.png) left center no-repeat;
+  
+}
+/*#menu_1stlevelSpibook{background: #1b6b74 url(../images/spibook/icones/Spibook.png) left center no-repeat;}*/
+#menu_1stlevelOrganisateur a:hover{color:#6FB465;}
+#menu_1stlevelEvenement a:hover{color:#BF5239;}
+#menu_1stlevelThematiques a:hover{color:#F2C052;}
+#menu_1stlevelCategories a:hover{color:#6b9aa5;}
+
+
+
+.nav-bar li{
+    border:none;
+    box-shadow: none;
+    text-align: left;
+    color:#f5f5f5;
+    font-weight: lighter;
+    padding-left: 4em;
+    font-family: 'comfortaa', verdana;
+}
+.nav-bar li:last-child{
+    border:none;
+    box-shadow: none;
+}
+
+
+#menuNewItem{/*    background: #206A73;*/}
+#menuRetraitesItem{background: #6EB4A0;}
+#menuPlacesItem{background:#6FB465;}
+#menuGeolocItem{background:#F2C052;}
+#menuContactItem{background:#BF5239;}
+#menuAboutItem{}
+
+
+.menu_1stlevelSpibook a{
+    background:none; 
+}
+
+p.subMenuJustify{
+    text-align:justify;
+    line-height: 2em;
+}
+
+li.subMenu{
+    background:red;
+}
+/* -----------------------------------------
+  FOOTER
+----------------------------------------- */
+
+#footer1{background: #464646;}
+#footer2{background: #212121;}
+.footerDiv{
+    padding:2em;     
+    text-align: justify;
+    color:#fff;
+}
+.footerText{
+    color:#fff;
+    font-size:0.7em;
+}
+
+.resumeListe{font-size:0.8em;}
+
+/* -----------------------------------------
+   HOME PAGE
+----------------------------------------- */
+.ParagraphlisteHome{
+    font-size: 0.8em;
+    margin: 0 0 1em 0;
+    
+}
+
+.blocBottomPage{
+    margin:0 0 1em 0;
+    background: #206A73;
+    
+}
+.blocBottomPageLeft{
+    border-right:10px solid #fff;
+}
+.blocBottomPageRight{
+    border-left:10px solid #fff;
+}
+.blocBottomPageCenter{
+    
+}
+#footerRow{
+    background:#464646;
+    margin:2em 0 2em 0;
+    padding:1em;
+}
+
+.blocTitle{
+    font: 1.4em "comfortaa", verdana;
+    padding:0 0 0 2.5em;
+    width:100%;
+    height: 40px;
+}
+.blocFollow{
+    color:#fff;
+}
+#titreTypeEvent{
+    background: url(../images/spibook/icones/calendar-small.png) left center no-repeat;
+}
+
+#newsletterBloc{
+    background:url(../images/spibook/icones/newsletterBlocHomePage.png) no-repeat left center;
+}
+
+#thematiquesBloc{
+    background:  url(../images/spibook/icones/thematique-small.png) no-repeat left center;
+/*    background:url(../images/spibook/icones/thematiqueBlocHomePage.png) no-repeat left center;*/
+}
+
+#retraiteBloc{
+    background:url(../images/spibook/icones/carteBlocHomePage.png) no-repeat left center;
+}
+#IntervenantBloc{
+    background:url(../images/spibook/icones/intervenantBlocHomePage.png) no-repeat left center;
+}
+
+#rechercheBloc{
+    background:url(../images/spibook/icones/rechercheBlocHomePage.png) no-repeat left center;
+}
+
+#communicationBloc{
+     background:url(../images/spibook/icones/communicationBlocHomePage.png) no-repeat left center;
+}
+
+#typeEvenementBloc{
+    background:url(../images/spibook/icones/typeBlocHomePage.png) no-repeat left center;
+}
+
+/* -----------------------------------------
+   PAGE Retraite
+----------------------------------------- */
+.listeSousItem{
+    font-size: 1.3em;
+    font-family: 'comfortaa', verdana, verdana;
+}
+
+.label{
+    background:#206A73;
+    margin:0 1em;
+    width:4em;
+}
+
+.button {
+    float:left;
+    background:#206A73;
+    width: 80px;
+    height:40px;
+    margin:1em;
+}
+
+.contactTextArea{
+    height: 20em;
+     width:100%;
+}
+
+.contactItem{
+    margin:0 0 1em 0;
+}
+
+
+
+
+p.descriptionRetraite{
+    text-align:justify;
+}
+
+#ui-datepicker-div{
+    z-index: 999;
+}
+
+.diaporamaHomePage{
+    z-index: 1;
+}
+
+.labelSearchField{
+    color:#1b6b74;
+    margin-top:0.4em;
+    font-size: 0.8em;
+    font-family: verdana, tahoma, sans-serif;
+}
+
+.searchSubmit{
+    margin:1em 0 0 0;
+    font:inherit;
+    height: 35px;
+    background: #363636 url(../images/spibook/icones/Recherche.png) right center no-repeat;
+    padding-left: 2em;
+    color:#fff;
+    border-radius: 10px;
+}
+
+.titre{
+
+}
+
+.titreRetraite{
+/*    background:url(../images/spibook/icones/calendar-small.png) left center no-repeat;*/
+    font-size: 1.6em;
+    line-height: 30px;
+    color:#1b6b74;
+}
+
+.centerText{text-align: center;}
+.justifyText{text-align: justify;}
+.leftText{text-align: left;}
+.rightText{text-align: right;}
+
+
+.bottomContent{
+    color:#fff;
+}
+.bottomContent a{
+    color:#fff;
+    font-weight: bold;
+}
+
+.listMenu li{
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.listMenu li a{
+    color:#fff;
+}
+
+.bottomTitle{
+    font-variant: small-caps;
+}
+
+.blocHomePage{
+    background:#464646;
+    height: 5em;
+}
+
+.panelHomePage{
+    background:#f2f2f2;
+    border-radius: 5px;
+    border: none;
+/*    color:#fff;*/
+}
+
+.panelHomePage h4{
+   color:#363636;
+}
+
+.panelHomePage a{
+/*    color:#fff;*/
+}
+
+.contactItemHomePage{
+    padding:0 0 0 3em;
+    margin:2em 0 0 0;
+    text-align: justify;
+    font-weight: lighter;
+    color: #363636;
+}
+
+
+a .contactItemHomePage:hover{
+    color:#1b6b74;
+}
+
+#diffuseur{
+    background:url(../images/spibook/icones/diffusion.png) left center no-repeat;
+}
+#suggestion{
+    background:url(../images/spibook/icones/idees.png) left center no-repeat;
+}
+#annonceur{
+    background:url(../images/spibook/icones/annonces.png) left center no-repeat;
+}
+.newsletterSubmit{
+    margin:1em 0 0 0;
+    font:inherit;
+    height: 35px;
+    background: #e6e6e6;
+    padding-left: 2em;
+  
+    border-radius: 3px;
+}
+
+p.textBlocHomePage{
+    color:#3f3f3f;
+    margin:-2em 0 0 5em;
+    font-size:0.8em;
+    text-align:justify;
+}
+
+
+/**
+LISTES
+*/
+.itemListe{
+/*    margin:1em;*/
+/*margin:0.2em;*/
+/*    background:#fff;*/
+  
+}
+.itemListe .capty-caption a{
+    font-variant: small-caps;
+    font-size: 1em;
+}
+
+.itemListe img{
+/*    position: relative;*/
+    width:100%;
+/*    display: block;*/
+/*    margin-left:0.2%;*/
+    
+}
+
+.itemListe h1{
+     font-size: 1.1em;
+    font-weight: normal;
+    text-align: justify;
+    min-height: 2.4em;
+    font-family: "comfortaa",verdana;
+    
+}
+
+.zoneNbEvent{
+
+    width:100%;
+    height:100%;
+}
+
+.nbEvenementOrganisateur{
+    width:30px;
+    color: #1b6b74;
+    font-size: 1.5em;
+    line-height: 4em;
+    font-weight: bold;
+    text-align: center;
+    background:url("../images/spibook/icones/calendrier-turquoise.png") no-repeat scroll bottom center transparent;
+}
+
+
+.regionsOrganisateur{
+    font-size: 1em;
+    margin: 0;
+    width: 100%;
+}
+
+.villeOrganisateur{
+  font-size: 1.3em;
+    margin: 0;
+    width: 100%;
+    
+}
+
+
+
+
+.itemListe h6{
+    font-size: 1.2em;
+/*    font-variant: small-caps;*/
+    font-weight: lighter;
+}
+
+.zoneTexte{
+    padding:0.5em;
+}
+
+.dateListeRetraite{
+    padding:0 0 0 3em;
+    line-height: 25px;
+    background:url(../images/spibook/icones/calendrier-turquoise.png) left center no-repeat;
+    font-size: 0.8em;
+}
+
+.lieuListeRetraite{
+    font-size: 0.8em;
+}
+
+.titreListeRetraite{
+    text-align: justify;
+    color:#464646;
+    margin: 2% 0 0 0 ;
+}
+
+.descriptionRetraiteDetail{
+    text-align: justify;
+    margin:4em 0 2em 0;
+}
+
+img.listeEventImg{
+    padding:1% 0 2% 0;
+}
+
+#InfosPratiquesRetraiteDetail{
+
+    background:url(../images/spibook/icones/InformationsPratiquesBlocHomePage.png) left center no-repeat;
+}
+
+#LieuRetraiteDetail{
+    background: url(../images/spibook/icones/organisateur-small.png) left center no-repeat;
+/*    background:url(../images/spibook/icones/lieuRetraiteDetail.png) left center no-repeat;*/
+}
+
+.titreSectionRetraiteDetail{
+    height:40px;
+    padding:0.5em 0 0 3em;
+    color:#464646;
+    font-family: 'comfortaa', verdana, verdana;
+}
+.titreSectionOrganisateurDetail{
+    height:40px;
+    padding:0.5em 0 0 1em;
+    color:#1b6b74;
+    font-family: 'comfortaa', verdana, verdana;
+}
+
+.tabs dd.active{
+/*    border-bottom:none;*/
+    border:none;
+}
+
+.tabs dd.active a{
+    font-size: 0.9em;
+    color:#1b6b74;
+    font-weight:normal;
+}
+
+.tabs dd a{
+    font-weight:normal;
+    font-size: 0.9em;
+    color:#363636;
+}
+
+.numberItem{
+    float:right;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+.orbit-wrapper .orbit-caption{
+    background: rgba(255, 255, 255, 0.8);
+   
+    
+}
+
+
+.titreDiaporama{
+    color:#1b6b74;
+    font-size: 1.1em;
+}
+
+.typeDiaporama{
+    float: left;
+    margin:0 0 0 25%;
+}
+
+.dateDiaporama{
+    float: right;
+    margin:0 25% 0 0;
+}
+
+.titreDiaporamaCom{
+    font-size: 1.0em;
+    color:#363636;
+    }
+
+.soustitreHome{
+    color:#363636;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+
+.titreHome{
+    color:#363636;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.titreSpibookTouch{
+    margin-top: 2em;
+    color:#363636;
+    font-family: spibook;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.constat{
+    color:#F2C052;
+}
+
+.idee{
+    color:#BF5239;
+}
+
+.projet{
+    color:#1b6b74;
+}
+
+.sousTitreSpibookTouch{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.typeLieu{
+    font-size:1em;
+}
+
+
+
+.noresult{
+   background:url(../images/spibook/iconedesole.png) left center no-repeat;
+   padding:3em 3em 3em 90px;
+}
+
+.paginationBlock{
+    float:right;
+    font-size:0.8em;
+}
+
+h1.titrePage{
+    font-size: 2em;
+}
+
+h2.titrePage{
+    font-size: 1.5em;
+    color:#1b6b74;
+}
+
+#map{
+height:30em;
+}
+
+#mapSmall{
+    height:250px;
+}
+#mapSmallEvent{
+    height:520px;
+}
+
+.itemListeEvent{
+    padding-bottom:1em;
+/*    border:1px solid #525963;*/
+    color:#363636;    
+/*    box-shadow: 2px 2px 2px 2px #e5e5e5;  */
+}
+
+.itemListeEvent a{
+    color:#363636;
+    font-family:'comfortaa', tahoma, verdana, sans-serif;
+    width:100%;
+    font-size: 1.2em;
+    font-stretch: extra-expanded;   
+/*    line-height: 0.8em;*/
+}
+.titreItemListeEvent{
+    margin:3px 2px;
+    text-align: center;
+    font-size:1.2em;
+    font-weight: initial;
+    
+}
+
+.themeItemListeEvent{
+    text-align:center;
+    width:100%;
+}
+.dateItemListeEvent{
+    position:relative;
+    font-family :tahoma, verdana, sans-serif;
+    font-size:0.8em;
+    text-align: center;
+    line-height: 1.5em;
+    margin:50% 0 10px 0;
+}
+
+
+.vignetteOverImg{
+    position:relative;
+    margin-top:-50%;
+    margin-left:1em;
+    background:#fff;
+    border-radius:4px;
+    height:20px;
+    color:#363636;
+}
+
+.itemListeEvent:hover{
+    box-shadow: 3px 3px 3px 3px #e5e5e5;  
+}
+
+.typeItemListeEvent{
+    font-family : spibook, tahoma, arial, sans-serif;
+    font-size:0.8em;
+     text-align: left;
+}
+
+.itemListeEvent img{
+    margin:0;    
+}
+
+
+
+ul.themesListEvent li a{
+   font-size:0.7em;
+   font-weight: lighter; 
+   margin: 1px 0 1px 0;  
+}
+
+.villeOrganisateurEvenements{
+    padding:0 0 0 3em;
+    line-height: 25px;
+    font-size: 0.8em;
+    background:url(../images/spibook/icones/lieuRetraiteDetail.png) left center no-repeat;
+}
+.labelThemeListe a{
+    font-weight: normal;
+}
+
+.themeItemEvent{
+    text-align: center;
+    line-height: 0.6em;
+    font-size: 0.7em;
+/*    background:#363636;
+    border-radius: 3px;*/
+    color:#fff;
+    
+}
+
+.themesListe{
+    min-height: 4em;
+}
+
+/**
+            HEADER HOME
+*/
+#headerHome{
+    background:#fff;
+}
+
+.titreDetail{
+    text-align: right;
+    color: #1b6b74;
+    font-family: "comfortaa", verdana;
+}
+
+.titreDetailBlanc{
+    text-align: right;
+    color: #fff;
+    font-family: "comfortaa", verdana;
+}
+
+/*.fondHomeBandeau{
+    background-color:#393c42;
+}*/
+
+#homeBandeau1{
+    background:#393c42;
+    margin-top:1em;
+    color:#fff;
+    text-align: center;
+    width:100%;
+}
+
+.signature{
+    line-height: 2em;
+    word-spacing: 0.3em;
+    letter-spacing: 0.2em;
+    font-size: 2em;
+    font-family: "comfortaa", verdana;
+}
+.signature .high1{
+    color:#c2aa6b;
+}
+.signature .high2{
+    color:#6b9aa5;
+}
+
+
+#homeBandeau2{
+/*    background:#525963;*/
+    min-height: 10em;
+    color:#fff;
+    margin-bottom: 4em;
+    
+}
+
+
+#menuHomePage li{
+    text-align:center;
+}
+
+.imgMenuHome{
+
+}
+
+#mapHome{
+    height:30em;
+/*    width:100%;*/
+}
+
+#mapNSearchHomePage{
+    margin: 0 0 4em 0;
+}
+
+.borderTopDown{
+    border-top:1px solid #E7E7E7;
+    border-bottom:1px solid #E7E7E7;
+    padding-top:3em;
+    padding-bottom:3em;
+}
+
+.borderLeftRight{
+    border-left:1px solid #E7E7E7;
+    border-right:1px solid #E7E7E7;
+/*    padding-top:3em;
+    padding-bottom:3em;*/
+}
+/**
+        Corrige le téléscopage entre foundation et google map.
+*/
+
+.map img { 
+    max-width: none; 
+    height: auto 
+}
+
+
+
+.imgHomeMenu{
+/*    height: 6em;*/
+    margin-top: 2em;
+}
+
+.titreHomeMenu{
+/*    height: 4em;*/
+    font-size: 1.5em;
+    font-family: 'comfortaa', verdana;
+}
+
+.evenementsHomePage{
+    color:#BF5239;
+}
+
+.organisateursHomePage{
+    color:#6FB465;
+}
+.themesHomePage{
+    color:#F2C052;
+}
+
+.videosHomePage{
+    color:#1b6b74;
+}
+
+
+.HomeMenu{
+/*    height:14em;*/
+    text-align: center;
+}
+
+.HomeMenu li a{
+    color:#393c42;
+}
+
+.HomeMenu li:hover{
+/*    padding-top:1em;*/
+    height:100%;
+    background:#393c42;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#homeRecherche{
+    
+}
+
+
+.rechercheAvancee h5{
+    cursor:pointer;
+    font-weight: normal;
+    font-size: 0.8em;
+    font-variant:small-caps;
+}
+
+.searchCriteria{
+/*    margin-bottom:1em;*/
+}
+
+div.capty-caption a{
+    color:#363636;
+    font-weight: normal;
+}
+
+.lienHomeEvent:hover a{
+    color:#BF5239;
+}
+
+.lienHomeOrga:hover a{
+    color:#6FB465;
+}
+
+.lienHomeThematiques:hover a{
+    color:#F2C052;
+}
+
+.lienHomeCategories:hover a{
+    color:#6b9aa5;
+}
+
+.titreSousVignette a{
+    font-size: 0.9em;
+    text-align:center;
+    margin:0;
+    color:#363636;
+    font-family: 'comfortaa',verdana;
+}
+
+.titreSousVignette{
+    font-size: 0.9em;
+    text-align:center;
+    margin:0;
+    color:#363636;
+    font-family: 'comfortaa',verdana;
+}
+
+.titreVignetteHomePage{
+    font-size: 1.1em;
+    text-align:center;
+    margin:0;
+    font-family: 'comfortaa',verdana;
+    font-weight: bold;
+}
+.nbEventVignetteHomePage{
+    font-size: 1em;
+    text-align:center;
+    margin:0;
+    font-family: tahoma, verdana, sans-serif;
+    font-weight: normal;
+}
+
+#dataHomePage{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.separatorRight{
+    border-right:1px solid #E7E7E7;
+}
+.panel{
+/*    background:#fff;
+    border-radius: 5px;*/
+}
+
+
+
+.tagThemeSmall a{
+    background:#1b6b74;
+    border:1px solid #1b6b74;
+
+    font-family: 'comfortaa',verdana;
+    color:#fff;
+    border-radius: 10px; 
+    font-size: 0.8em;
+    padding:3px 6px;
+    font-family: tahoma, arial;
+    white-space: nowrap;
+    line-height: 2em;
+    margin:2px;
+    font-weight: bold;
+}
+.tagThemeSmall a:hover{
+    
+    
+    border:2px dashed #fff;
+}
+
+
+.tagThemeLarge a{
+/*    color:#F2C052;*/
+    background:#F2F2F2; 
+    margin:2px;
+    border:1px solid #E6E6E6;
+    border-radius: 5px; 
+    font-size: 1em;
+    padding:2px;
+    font-family: 'comfortaa',verdana;
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+.tagThemeLarge a:hover{
+    color:#fff;
+    background:#1b6b74;  
+}
+
+.tagIntervenantLarge a{
+    background:#F2F2F2; 
+    margin:2px;
+    border:1px solid #E6E6E6;
+    border-radius: 5px; 
+    font-size: 1em;
+    padding:2px;
+    font-family: 'comfortaa',verdana;
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+.tagIntervenantLarge a:hover{
+    color:#fff;
+    background:#1b6b74;  
+}
+
+.itemSeparator{
+    font-size: 0.7em;
+    color:#E7E7E7;
+}
+
+.titreLigneEvent{
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: justify;
+    min-height: 2.4em;
+    font-family: "comfortaa",verdana;
+}
+.titreLigneEvent a{
+        color: #1f1f1f;
+}
+
+.organisationLigneEvent{
+    color:#8f8f8f; 
+    margin:1em 0  ; 
+    font-size: 0.9em; 
+    font-family: verdana, tahoma, sans-serif;
+   
+}
+
+.itemOrga{
+/*     border-top:1px solid #E5E5E5;*/
+     background: #f5f5f5;
+     margin:1em 0  ;    
+}
+
+
+.itemOrga:hover{
+    background:#6FB465;
+}
+
+
+.itemOrga:hover .organisationLigneEvent a{
+    color:#fff;
+}
+
+.itemOrga:hover h1{
+    color:#fff;
+    font-weight: bold;
+}
+.conteneurListe{
+    padding-top:1em;
+    background:#fff;
+}
+
+.organisationLigneEvent a{
+    
+}
+
+.geoOrganisateur{
+    max-height: 3em;
+    font-size: 0.7em;
+}
+
+.dateLigneEvent{
+     font-size: 0.8em; 
+     color:#1b6b74; 
+     text-align: right; 
+     font-family: verdana, tahoma,sans-serif;
+}
+
+.ligneEvent{
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.ligneEvent:hover .dateLigneEvent, .ligneEvent:hover .organisationLigneEvent, .ligneEvent:hover .organisationLigneEvent a{
+    color:#fff;
+}
+
+.ligneEvent:hover img{
+    border:4px solid #fff;
+    border-radius:5px;
+}
+.ligneEvent:hover{
+    background:#BF5239;
+    color:#fff;
+}
+
+.ligneEvent:hover a{
+
+    color:#fff;
+}
+
+.sub-nav{
+    font-family: verdana, tahoma, sans-serif;
+}
+
+.sub-nav a{
+    font-size: 0.8em;
+}
+
+dl.sub-nav dd.active a{
+    background:#1b6b74; 
+}
+
+ul.pagination li.current a{
+    background: #1b6b74;    
+}
+
+ul.pagination{
+    font-family: verdana, tahoma, sans-serif;
+}
+ul.pagination li a{
+        font-family: verdana, tahoma, sans-serif;
+        font-size: 0.8em;
+        cursor: pointer;
+}
+
+.nbEventRecherches{
+        font-family: verdana, tahoma, sans-serif;
+        font-size: 0.9em;
+        color:#1b6b74;
+        margin-top: 1em;
+        margin-bottom: 1em;
+}
+
+
+#erreur401{
+    
+}
+#erreur402{
+    
+}
+#erreur403{
+    
+}
+#erreur404{
+    
+}
+#erreur500{
+    
+}
+#erreurGenerique{
+    
+}
+.erreur{
+    margin:4em 0 0 0;
+    padding:2em 0 2em 0;
+    text-align: center;
+    font-family: 'comfortaa', verdana, tahoma, sans-serif;
+    font-size: 2em;
+}
+
+.erreurliens{
+    margin:1em 0;
+    padding:1em 0 1em 0;
+    text-align: center;
+    font-family: 'comfortaa', verdana, tahoma, sans-serif;
+    font-size: 1em;
+}
+.coverFlowList{
+    height:10em;
+}
+
+
+.coverFlowItem:hover{
+    margin-top:-0.5em;
+    -webkit-transition: margin 0.5s;
+}
+
+.coverFlowItem{
+/*    height: 6em;*/
+    margin-top:1em;
+}
+
+.hiddeninfo{
+    visibility: hidden;
+}
+
+.coverFlowItem:hover .hiddeninfo{
+    visibility: visible;
+}
+
+#listOrgaHomePage{
+    margin:2em 0;
+}
+
+#listThemeHomePage{
+    margin:2em 0;
+}
+.flex-video{
+    height:20em;
+}
+
+
+.inscriptionProcess{
+    
+    margin:2.5em 0;
+}
+
+.stepInscription { 
+  height:200px;
+  line-height:200px;
+  text-align:justify; /* centrage horizontal d'un élément en-ligne */ }
+
+.titreStepInscription{
+    color:#464646;
+    font-size: 1.5em;
+    text-transform:uppercase;
+    line-height: 1em; 
+/*     font-family: 'comfortaa',verdana;*/
+}
+
+.titreInscription{
+    color:#464646;
+    font-size: 1.5em;
+    text-transform:uppercase;
+    line-height: 1em; 
+}
+
+.titreStepInscription small{
+    font-size: 0.8em;
+    font-weight: normal;
+    text-transform: lowercase;
+     font-family: sans-serif;
+}
+
+
+.button{
+    font-family: 'comfortaa',verdana;
+}
+
+.imgInscription img{
+    margin:0 auto;
+}
+
+.inscriptionVignetteType{
+    text-align: center;
+    font-family: 'comfortaa',verdana;
+    font-size: 1.2em;
+}
+
+.inscriptionRow{
+    margin-top:2em;
+    text-align: center;
+}
+
+.inscriptionRow h4{
+    margin-top:0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.descriptionInscription{
+    margin-top:4em;
+}
+
+.descriptionInscription p{
+    text-align:justify;
+    font-family: 'comfortaa', tahoma, verdana;
+   font-size:1.2em;
+}
+
+.descriptionTheme p{
+    color:#464646;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+.descriptionTheme a{
+    font-style: italic;
+    text-align: right;
+}
+
+.divPopUpGoogleMap{
+    width:18em;
+    height:auto;
+    overflow: hidden;
+    
+    
+}
+
+.divPopUpGoogleMap h1{
+    font-size: 1em;
+    text-align: left;
+    margin:0 0 1.7em 3.5em;
+    color:#BF5239;
+    font-weight: bold;
+}
+.divPopUpGoogleMap img.vignette{
+    width:10em;
+    height:5em;
+    padding:0;
+    margin:0;
+    float:left; 
+    margin-right:0.2em
+}
+
+.popUpEvenement{
+    background:  url(../images/spibook/icones/calendar-small.png) top left no-repeat;
+}
+.popUpOrganisateur{
+    background:  url(../images/spibook/icones/organisateur-small.png) top left no-repeat;
+}
+
+.popUpEvenement a{
+    color:#BF5239;
+}
+
+.popUpOrganisateur a{
+    color:#6FB465;
+}
+
+.ilsEnParlent{
+    margin-top:4em;
+}

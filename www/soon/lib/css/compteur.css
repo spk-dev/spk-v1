@@ -1,0 +1,60 @@
+@font-face { 	
+				font-family: "DigitalFont"; 	
+				src: url('../font/DS-DIGIB.TTF') format('truetype') ;
+				font-weight: normal;
+				font-style: normal;
+			}
+			
+			
+			#countdown{
+                                background:#f5f5f5;
+                                -moz-border-radius:12px;
+                                -khtml-border-radius: 12px;
+                                -webkit-border-radius: 12px;
+                                border-radius:12px;
+                                filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;
+                                width:100%;
+                                height:200px;
+				margin:0 auto;
+				text-align:justify;
+				font-family : DigitalFont, "Trebuchet MS", Arial, Helvetica, sans-serif;
+				
+			}
+			
+			.time{
+				margin:10px;
+				height:85px;
+                                color:#1a6b74;
+			}
+			.label{
+				font-size : 20px;
+				color:#000;
+			}
+			
+			.days{
+				float:left;
+				width:120px;
+				height:120px;
+				font-size:120px;
+                                text-shadow:
+                                #999 3px 3px 3px,
+                                #999 -3px 3px 3px,
+                                #999 -3px -3px 3px,
+                                #999 3px -3px 3px; 
+                                -webkit-font-smoothing:antialiased;
+
+                        }
+
+
+                        .carre{
+                                font-size:50px;
+                                width:20%;
+                                float:left;
+                        }
+
+                        .millisecondes{
+                            font-size : 70px;
+                            font-style: italic;
+                        }
+                        
+                        

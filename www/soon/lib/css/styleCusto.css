@@ -1,0 +1,216 @@
+#cycle-loader {
+    height:32px;
+    left:50%;
+    margin:-8px 0 0 -8px;
+    position:absolute;
+    top:50%;
+    width:32px;
+    z-index:999;
+}
+
+/*I want to avoid jumpiness as the JS loads, so I initially hide my cycle*/
+#maximage {
+    display:none;/* Only use this if you fade it in again after the images load */
+    position:fixed !important;
+}
+
+/*Set my gradient above all images*/
+#gradient {
+    left:0;
+    height:100%;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:999;
+}
+
+/*Set my logo in bottom left*/
+#logo {
+    bottom:30px;
+    height:auto;
+    left:30px;
+    position:absolute;
+    width:34%;
+    z-index:1000;
+}
+#logo img {
+    width:100%;
+}
+
+
+a {color:#666;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.in-slide-content { 
+        
+    color:#fff;
+/*        float:right;*/
+    font-family:'Helvetica Neue', helvetica;
+    font-size:4em;
+    font-weight:bold;
+    right:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:9999;/* Show above .gradient */
+/*        text-shadow: 0 3px 0 #191919;*/
+    text-shadow:
+        #1a6b74 10px 10px 10px,
+        #1a6b74 -10px 10px 10px,
+        #1a6b74 -10px -10px 10px,
+        #1a6b74 10px -10px 10px; 
+    -webkit-font-smoothing:antialiased;
+    text-align: center;
+}
+.light-text {color:#ddd;text-shadow: 0 1px 0 #191919;}
+.smaller-text {font-size:30px;}
+
+
+#imgLogo{
+    position:relative;
+    margin:0 auto;
+    width:100%;
+}
+
+#divTitle{
+    width:100%;
+    margin:0;
+}
+
+#form-container{
+    margin:200px auto;
+    width: 370px;
+    background-color:#f5f5f5;
+    padding:15px;
+    -moz-border-radius:12px;
+    -khtml-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius:12px;
+}
+
+#MainContent{
+    position:relative;
+    margin:0;
+    width:100%;
+    height:auto;
+}
+
+
+label{
+    
+    font-size:10px;
+    font-family:Tahoma,Arial,Sans-serif;
+}
+
+
+td > button{
+    text-indent:8px;
+}
+
+td{
+    white-space:nowrap;
+}
+
+input[type=text] {
+    padding:3px;
+    border:1px solid #1a6b74;
+    border-radius:5px;
+    width:200px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+ }
+ 
+input[type=submit], input[type=reset] {
+    margin:10px;
+    padding:3px;
+    border:1px solid #fff;
+    border-radius:10px;
+    width:150px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    cursor:pointer;
+}
+
+#textIntro{
+    text-align: center;
+    margin:10px;
+}
+
+
+
+/*
+MODAL POPUP
+*/
+
+
+#fade { /*--Masque opaque noir de fond--*/
+	display: none; /*--masqué par défaut--*/
+	background: #000;
+	position: fixed; left: 0; top: 0;
+	width: 100%; 
+        height: 100%;
+	opacity: .80;
+	z-index: 9999;
+}
+.popup_block{
+               
+	display: none; /*--masqué par défaut--*/
+	background: #fff;
+	padding: 20px;
+	border: 20px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	/*--Les différentes définitions de Box Shadow en CSS3--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	/*--Coins arrondis en CSS3--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+img.btn_close {
+	float: right;
+	margin: -55px -55px 0 0;
+}
+/*--Gérer la position fixed pour IE6--*/
+*html #fade {
+position: absolute;
+}
+*html .popup_block {
+position: absolute;
+}
+
+
+.smallLabel{
+    font-size: 10px;
+}
+
+#ErrorMessage{
+    font-size:10px;
+    font-family:Tahoma,Arial,Sans-serif;
+    color:#c60f13;
+    
+}
+
+.NewsResult{
+    font-size:12px;
+    font-family:Tahoma,Arial,Sans-serif;
+    font-weight: bold;
+}
+#ok{
+    color:#6FB465;
+}
+
+#ko{
+    color:#c60f13;
+}
+
+.textePopUp{
+    text-align: justify;
+    font-size:  12px;
+    font-family:Tahoma,Arial,Sans-serif;
+    
+    
+}

@@ -1,0 +1,161 @@
+/* 
+    Document   : admstyle
+    Created on : 11 avr. 2013, 09:51:41
+    Author     : phwu963
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background: url(../images/spibook/grey_wash_wall.png);
+}
+
+.row{
+    background: #fff;
+}   
+
+
+.contentWysiwyg{
+    width:auto;
+    background:#fff;
+}
+    
+textarea{
+    width:100%;
+}
+
+/* css for timepicker */
+
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; }
+.ui-timepicker-rtl dl dd { margin: 0 65px 10px 10px; }
+
+.mainAdmin{
+    background: #fff;
+}
+
+
+.menuAdmin1{background: #363636 url(../images/spibook/icones/Thematiques.png) left center no-repeat;}
+.menuAdmin2{background: #363636 url(../images/spibook/icones/Calendrier.png) left center no-repeat; }
+.menuAdmin3{background: #363636 url(../images/spibook/icones/Destinations.png) left center no-repeat;}
+.menuAdmin4{background: #363636 url(../images/spibook/icones/Recherche.png) left center no-repeat;}
+
+
+
+li.menuAdmin1 a.textMenuAdmin{color:#BF5239; font-size: 1em; margin-left:-30px;}
+li.menuAdmin2 a.textMenuAdmin{color:#6EB4A0; font-size: 1em; margin-left:-30px;}
+li.menuAdmin3 a.textMenuAdmin{color:#6FB465; font-size: 1em; margin-left:-30px;}
+li.menuAdmin4 a.textMenuAdmin{color:#F2C052; font-size: 1em; margin-left:-30px;}
+
+
+
+li.menuAdmin1:hover a.textMenuAdmin{color:#363636;}
+li.menuAdmin2:hover a.textMenuAdmin{color:#363636; }
+li.menuAdmin3:hover a.textMenuAdmin{color:#363636;}
+li.menuAdmin4:hover a.textMenuAdmin{color:#363636;}
+
+li.menuAdmin1:hover{background: #BF5239 url(../images/spibook/icones/Thematiques.png) left center no-repeat;}
+li.menuAdmin2:hover{background: #6EB4A0 url(../images/spibook/icones/Calendrier.png) left center no-repeat; }
+li.menuAdmin3:hover{background: #6FB465 url(../images/spibook/icones/Destinations.png) left center no-repeat;}
+li.menuAdmin4:hover{background: #F2C052 url(../images/spibook/icones/Recherche.png) left center no-repeat;}
+
+
+h1{
+    color:#030303;
+    font-size: 1em;
+}
+
+ul.accordion li.active{
+    border: none;
+}
+
+ul.accordion li.active .content{
+  
+    min-height: 7em;
+}
+ul.accordion li.administrateur .content{
+    color:#fff;
+    background: #BF5239;
+}
+
+ul.accordion li.administrateur .title{
+   background: #D19386;
+}
+
+ul.accordion li.organisations .content{
+    color:#fff;
+    background: #6FB465;
+}
+
+ul.accordion li.organisations .title{
+   background: #94C38D;
+}
+
+ul.accordion li.evenements .content{
+    color:#fff;
+    background: #6EB4A0;
+}
+
+ul.accordion li.evenements .title{
+   background: #9ACBBD;
+}
+
+ul.accordion li.assistance .content{
+    color:#fff;
+    background: #EBAF2D;
+}
+
+ul.accordion li.assistance .title{
+   background: #E3BD6A;
+}
+
+
+.progress1{
+    background: #363636; 
+}
+
+.dashboardNumberBig{
+    font-size:3em;
+    text-align: center;
+    font-weight: bolder;
+    color:#fff;
+}
+.dashboardNumberSmall{
+    font-size:1.5em;
+    text-align: center;
+    font-weight: bolder;
+    color:#fff;
+}
+
+.follow{
+    float:right;
+    color:#6EB4A0;
+    font-size: 0.8em;
+}
+
+.pourcentage{
+    color:#363636;
+}
+
+#uploadPreview img{
+  height:60px;
+}
+
+#uploadPreview{
+    color:#878a85;
+    font-size: 0.8em;
+}
+
+#superadmin{
+    
+    background:#464646;
+}
+
+button.ui-datepicker-current { display: none; }

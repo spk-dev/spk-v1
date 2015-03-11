@@ -1,0 +1,1 @@
+ALTER TABLE  `administrateur` ADD  `administrateur-dateLastConnect` DATE NOT NULL
